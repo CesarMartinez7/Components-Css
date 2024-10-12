@@ -55,11 +55,14 @@ a:hover{
 
 @media (prefers-color-scheme: light){
     a{
-        background-color: #484444;
-        box-shadow: rgba(17, 12, 46, 0.312) 0px 48px 100px 0px;
+        background-color: #252525;
+        box-shadow: rgba(155, 168, 181, 0.2) 0px 8px 24px;
     }
     a:hover{
-        background-color: rgb(111, 109, 109);
+        background-color: rgb(67, 67, 67);
+    }
+    body{
+        background-color: rgb(32, 32, 32);
     }
 }
 
