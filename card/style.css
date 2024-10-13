@@ -12,7 +12,35 @@ body{
 
 
 :root{
-    color-scheme: light;
+    color-scheme: light dark;
+    color: #2f2f2f;
+}
+
+
+@media (prefers-color-scheme: dark){
+    body{
+        color: #7d7d7d  ;
+    }
+
+    .container{
+        border-radius: 26px;
+        background: linear-gradient(45deg, #1c1b1b, #171717);
+        box-shadow:  40px -40px 59px #131212,
+             -40px 40px 59px #212020;
+        
+    }
+}
+
+@media (prefers-color-scheme: light){
+    body{   
+        color: #2f2f2f;
+    }
+    .container{
+        border-radius: 58px;
+        background: #eeeeee;
+        box-shadow:  35px -35px 70px #acacac,
+             -35px 35px 70px #ffffff;
+    }
 }
 
 .container {
@@ -26,24 +54,20 @@ body{
     height: 25vh; /* Altura inicial */
     overflow: hidden;
     box-sizing: border-box;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     transition: height ease 1s;
     border-radius: 23px;
-background: #ffffff;
-box-shadow:  25px 25px 43px #d6d6d6,
-             -25px -25px 43px #ffffff;
 }
-/* 
-.container:active {
-    height: fit-content; 
-    
-} */
 
-/* transition: height ease 0.5s; */
 
 .container-hero{
     display: flex;
     gap: 4vh;
     flex-wrap: wrap;
+    justify-content: center;
 
+
+}
+
+.title{
+    font-weight: 400;
 }
