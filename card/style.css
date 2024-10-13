@@ -23,10 +23,10 @@ body{
     }
 
     .container{
-        border-radius: 26px;
-        background: linear-gradient(45deg, #1c1b1b, #171717);
-        box-shadow:  40px -40px 59px #131212,
-             -40px 40px 59px #212020;
+        
+        background: linear-gradient(45deg, #3b3b3b, #171717);
+        box-shadow:  40px -40px 59px #292828,
+             -20px 40px 59px #232323;
         
     }
 }
