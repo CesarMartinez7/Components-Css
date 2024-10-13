@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #4392d7;
+    
+}
+
+:root{
+    color-scheme: dark;
+}
+
+.container{
+    display: flex;  
+    margin: 10vh 5vh 10vh 5vh;
+    font-size: 3em;
+}
+
+.container > h1{
+    width: 20;
+    overflow: hidden;
+    white-space: nowrap;
+    animation-name: deletreo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    color: 
+    
+}
+
+
+
+
+@keyframes deletreo{
+    20%{
+        width: 20%;
+    }
+    60%{
+        width: 50%;
+    }
+
+    75%{
+        width: 77% ;
+    }
+
+    100%{
+        width: 0;
+    }
+}
+
