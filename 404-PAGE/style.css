@@ -38,12 +38,13 @@ body{
 @media (width <= 350px){
     body{
         font-size: 17px;
+        margin: 1px;
+        display: flex;
 
     }
 
     .container{
        box-shadow: none; 
-       
 
     }
 
@@ -56,3 +57,26 @@ body{
         
     }
 }
+
+
+.button{
+    width: 10vh;
+    height: 30px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 15px #bebebe,
+            inset -20px -20px 15px #ffffff;
+}
+
+.button::before{
+    content: "Push";
+    background: #060606;
+    height: 30px;
+    width: 4vh;
+    border-radius: 50%;
+    position: absolute;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  13px 3px 15px #969696, -12px -12px 15px #ffffff
+}
+
+
