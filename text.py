@@ -6,4 +6,4 @@ for i in text:
     print(f"Contador {contador}, Letra ; {i}")
 
 
-print(contador)
+print(contador) 

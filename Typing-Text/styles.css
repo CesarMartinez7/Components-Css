@@ -23,6 +23,7 @@ body{
     overflow: hidden;
     white-space: nowrap;
     border-right: 1px solid;
+    /* Cambiar los pasos por el numero de letras en el parrafo */
     animation: deletreo 4s steps(43) forwards infinite,
     blink 1s step-end infinite;
     
