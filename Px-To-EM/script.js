@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded",()=>{
     const entry = document.getElementById("input")
     const resultado = document.getElementById("resultado")
-
+    
     
     entry.placeholder = "20"
     entry.focus()
@@ -14,5 +14,7 @@ document.addEventListener("DOMContentLoaded",()=>{
 
     
 })
+
+
 
 
