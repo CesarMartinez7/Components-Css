@@ -4,6 +4,7 @@
     /* Variables */
     --gris: #2f2f12;
     --azulejo:#EFF2F5;
+    --azulejo-gris:#dbe7f3;
     --gris-github:#57606A;
     --negro-github:#24292F;
     color: var(var(--negro-github));
@@ -20,7 +21,7 @@ header{
     padding-top: 1.5rem;
     padding-left: 10px;
     padding-right: 10px;
-    border-bottom: 1px solid #b2b2b2;
+    border-bottom: 1px solid #e6e4e4;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -34,28 +35,17 @@ header{
 
 
 
-.navbar-list{
-    flex-direction: row;
+
+
+.burger{    
+    width: 20px;
+    height: 20px;
     display: flex;
-    list-style: none;
-    gap: 3vw;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    flex-wrap: wrap;
-    align-items: center;
-    font-size: 14px;
-    color: var(--gris);
-    transition: border-bottom 2s;
+    gap: 1px;
+    display: flex;
+    flex-direction: row;
 }
 
-
-
-.navbar-list li:hover{
-    background-color: rgb(213, 232, 249);
-    border-bottom: 2px solid rgb(0, 89, 255);
-    transition: all ease 1s;
-}
 
 
 .button{
@@ -72,6 +62,14 @@ header{
     font-weight: 600;
 }
 
+.button:active{
+    border-radius: 4px;
+    border: 1px solid #7499bd;
+}
+
+.button:hover{
+    background-color: var(--azulejo-gris);
+}
 
 
 ::selection{
@@ -80,23 +78,59 @@ header{
 }
 
 
-.students:hover{
-    transition:  after ease 5s ;
+.navbar-list{
+    flex-direction: row;
+    display: flex;
+    list-style: none;
+    gap: 3vw;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 14px;
+    color: var(--gris);
+    transition: border-bottom 2s;
+    box-sizing: border-box;
 }
-.students:hover::after{
-    content: "Boxx \n Ttot";
-    transform: translate(1px,1px);
-    position:absolute;
-    padding: 20px;
-    background-color: #ffff;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border-radius: 10px;
+
+
+.item{
+    flex: 2 1 auto;
+    width: max-content;
+    transition: transform 500ms ease;
+    padding: 5px;
+   
 }
 
 
 
 
+.item:hover{
+    background-color: #cedbeb;
+    transform: scale(1.1);
+    padding: 5px;
+    border-radius: 4px;
+}
 
+
+
+@media(width <= 350px){
+
+    
+    header{
+        display: flex;
+        justify-content: space-between; 
+        
+    }
+
+    .navbar-list{
+        display: none;
+    }
+}
+
+.esconder{
+    display: none;
+}
 
 
 

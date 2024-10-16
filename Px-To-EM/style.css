@@ -42,6 +42,7 @@ body{
     color: light-dark(var(--gris),rgb(255, 255, 255));
     display: flex;
     flex-direction: column;
+    flex: 1;
     margin: 0;
     padding: 0;
     background: url;
@@ -105,11 +106,16 @@ header{
 }
 
 
+.main:last-child{
+    background-color: red;
+}
+
 
 
 .navbar-list{
     flex-direction: row;
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     gap: 3vw;
     height: 100%;
@@ -120,6 +126,19 @@ header{
     font-size: 14px;
     transition: border-bottom 2s;
 }
+
+
+
+.navbar-list:first-child{
+    flex-grow: 1;
+    flex-basis: auto;
+    flex-shrink: 1;
+}
+
+.navbar-list :nth-child(2){
+    flex: 1 1 fit-content;
+}
+
 
 
 
@@ -156,7 +175,7 @@ header{
     transition:  after ease 5s ;
 }
 .students:hover::after{
-    content: "Boxx \n Ttot";
+    content: "Boxx Ttot";
     transform: translate(1px,1px);
     position:absolute;
     padding: 20px;
