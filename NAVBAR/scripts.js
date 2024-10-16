@@ -1,11 +1,22 @@
-const checkBurger = document.getElementById("navbar-burger");
-const navbarList = document.querySelector(".navbar-list");
-const header = document.getElementsByTagName("header")
+
+//BUTTON NAVBAR
+const navBarList = document.querySelector(".container-list-navbar")
+const buttonBurger = document.querySelector(".button-burger");
 
 
-console.log(header.style)
-
-checkBurger.addEventListener("click", () => {
-    navbarList.classList.toggle("esconder");
-    console.log(navbarList.classList)
+buttonBurger.addEventListener("click",()=>{
+    buttonBurger.classList.toggle("activo")
+    changeButtonNavbar()    
 });
+
+
+function changeButtonNavbar() {
+    if (navBarList.style.display === "none" || navBarList.style.display === "") {
+        navBarList.style.display = "flex";
+        navBarList.style.flexDirection = "column";
+    } else {
+        navBarList.style.display = "none";
+    }
+}
+
+

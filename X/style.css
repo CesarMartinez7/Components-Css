@@ -1,0 +1,57 @@
+
+
+body{
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.button-burger{
+    width: 40px;
+    height: 50px;
+    background:none;
+    border: none;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    transition: trasform 1s ease;
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+    background: #2f2f2f;
+    height: 4px;
+    width: 100%;
+    margin: 1px;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: transform 1s ease;
+}
+
+
+.l1{
+    transform: translate(-50%,-15px)
+}
+
+.l3{
+    transform: translate(-50%,10px)
+}
+
+
+.activo .l1{
+    transform: translate(-50%,10px) rotate(45deg) ;
+}
+
+.activo .l2{
+    width: 0;
+}
+
+.activo .l3{
+    transform: translate(-50%,10px) rotate(-45deg) ;
+    
+}
