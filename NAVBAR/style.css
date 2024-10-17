@@ -13,13 +13,12 @@
 
 body,html{
     margin: 0;
-    padding: 3px    2vw;
+    padding: 3px 2vw;
 }
 
 header{
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
-    
     border-bottom: 1px solid #e6e4e4;
     display: flex;
     flex-direction: row;
@@ -30,10 +29,6 @@ header{
     flex-wrap: wrap;
     box-sizing: border-box;
 }
-
-
-
-
 
 
 .burger{    
@@ -171,8 +166,7 @@ ul{
 }
 
 .container-list-navbar{
-
-    transition: height 1s ;
+    display: none;
     z-index: 10;
 }
 

@@ -1,0 +1,47 @@
+body,html{
+    margin: 0;
+    background: #1F2328;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    min-width: 100vw;
+}
+
+
+.containerr{
+    background-color: transparent;
+    height: auto;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(60px,1fr));
+    gap: 9px;
+    place-content: center;
+    place-items: center;
+    padding: 40px;
+}
+
+.box{
+    display: grid;
+    place-content: center;
+    place-items: center;
+    border-radius: 4px;
+    background-color: rgb(80, 80, 80);
+    height: 90px;
+    width: 100%;
+    transition: background 1s ease;
+}
+
+.box{
+    transition: scale 500ms;
+}
+
+.box:hover{
+    scale: 1.4; 
+    box-shadow: rgba(169, 181, 194, 0.2) 0px 8px 24px;
+}
+
+.containerr:hover > :not(:hover){
+    filter: blur(1px);
+    filter: grayscale(5);
+}
