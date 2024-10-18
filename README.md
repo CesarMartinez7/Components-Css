@@ -11,12 +11,12 @@
 
 ### Componentes-Disponibles
 
-- # 404-Page
-- # Card: Simple componente hecho con [Interpolate-size](https://developer.mozilla.org/en-US/docs/Web/CSS/interpolate-size)
-- # Grid-System-Icon [Icon](https://svgl.app/) 
-- # Navbar
-- # Px-To-Em: Font-size : 16px
-- # Social-Media
-- # Typing TEXT
-- # X for Navbar
+- ### 404-Page
+- ### Card: Simple componente hecho con [Interpolate-size](https://developer.mozilla.org/en-US/docs/Web/CSS/interpolate-size)
+- ### Grid-System-Icon [Icon](https://svgl.app/) 
+- ### Navbar
+- ### Px-To-Em: Font-size : 16px
+- ### Social-Media
+- ### Typing TEXT
+- ### X for Navbar
 -  Popover-Form: Popover hecho con html con la API popover
