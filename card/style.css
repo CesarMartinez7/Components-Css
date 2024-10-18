@@ -51,7 +51,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 40px;
-    height: 25vh; /* Altura inicial */
+    height: 25vh; 
     overflow: hidden;
     box-sizing: border-box;
     transition: height ease 1s;

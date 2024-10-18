@@ -18,7 +18,6 @@ contenedores.forEach(contenedor => {
     });
 
     const childrens = document.querySelectorAll(".card-responsive")
-    console.log(childrens)
     childrens.forEach(children => {
         children.addEventListener("click",(e)=>{
             e.stopPropagation()

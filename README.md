@@ -19,3 +19,4 @@
 - Social-Media
 - Typing TEXT
 - X for Navbar
+- Popover-Form: Popover hecho con html con la API popover
