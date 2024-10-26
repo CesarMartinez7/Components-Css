@@ -98,7 +98,6 @@ header{
 
 
 .item:hover{
-    background-color: #cedbeb;
     transform: scale(1.1);
     padding: 5px;
     border-radius: 4px;
