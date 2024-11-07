@@ -14,12 +14,21 @@
 ### Componentes Disponibles
 
 404-Page
+
 Batery-Animation
+
 Card: Componente hecho con nueva propiedad de css [Interpolate-size](https://developer.mozilla.org/en-US/docs/Web/CSS/interpolate-size)
+
 Grid-System-Icon: Responsive grid hecho para sponsor. 
+
 Navbar Responsive.
+
 Px-To-Em: Font-size : 16px
+
 Social-Media.
+
 Typing Text.
+
 X made with Css .
+
 Popover-Form: Popover hecho con html con la API popover de html.
