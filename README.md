@@ -11,7 +11,7 @@
 
  Si decides utilizar alguno de mis componentes CSS, te agradecería que me des un poco de crédito. Es código abierto, y estaré encantado de recibir cualquier mejora que desees compartir.
 
-## Componentes Disponibles
+### Componentes Disponibles
 
 -  404-Page
 -  Batery-Animation
